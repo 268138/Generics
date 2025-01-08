@@ -10,6 +10,7 @@ public class Uzd1Generics {
         printArray(words);
 
     }
+
     public static <T> void printArray(T[] array) {
         for (T e : array) {
             System.out.println(e);
